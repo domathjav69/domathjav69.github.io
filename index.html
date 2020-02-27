@@ -1,1 +1,194 @@
-HELLO WORLD!
+<!DOCTYPE html>
+<head>
+	<title>Anime Profile Card - Domath</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='stylesheet' href='http://berkah-ngoding.rf.gd/css/bootstrap.min.css'>
+</head>
+<body>
+<style>
+html {
+background-image:linear-gradient(to right, #FFC800,#FF5D00);
+font-family: 'sans-serif';
+}
+.container-body {
+background-image:linear-gradient(to right, #FFC800,#FF5D00);
+justify-content: center;
+align-items: center;
+align-content: center;
+width: 100vw;
+min-height: 100vh;
+color:white;
+text-align: center;
+margin-top: 72px;
+}
+.social-domath {
+margin-top: 45px;
+}
+ul.home-social{
+list-style:none;
+margin:0;
+padding:0;
+}
+ul.home-social li{
+float:center;
+display:inline-block;
+padding-left:6px;
+margin: 5px 0;
+}
+ul.home-social li a{
+background:#ace;
+width:45px;
+height:45px;
+line-height:4.5;
+display:block;
+text-align:center;
+border-radius: 50px;
+}
+ul.home-social li a:hover{
+color: #000;
+-moz-border-radius: 20%;
+-webkit-border-radius:20%;
+-o-border-radius:20%;
+border-radius:20%;
+transition:all .4s ease-in-out;
+-webkit-transition:all .4s ease-in-out;
+-moz-transition:all .4s ease-in-out;
+-ms-transition:all .4s ease-in-out;
+-o-transition:all .4s ease-in-out;
+}
+ul.home-social svg{
+width:25px;
+height:25px;
+}
+ul.home-social path{
+fill:white;
+}
+.profile {
+  background-image: url('images/anim.png');
+  background-position:left;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-color: #223;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -125px 0 0 -125px;
+  border-radius:24px;
+  border:none;
+  box-shadow: 0 37.125px 70px -12.125px rgba(0,0,0,0.2);
+  transition:all .3s;
+}
+
+.profileName {
+  background:transparent;
+  border:0;
+  text-align:center;
+  font-size:16px;
+  font-weight:800;
+  color:#eee;
+}
+
+.isVerified {
+  fill: lime;
+  margin:30px 0;
+}
+
+.card-body {
+  color:#eee;
+  margin-top:1.5em;
+}
+.avatar {
+  border-radius:50%;
+  border: 2px solid #f1c232;
+  max-width:128px;
+  transform: scale(0.95);
+  transition:all .5s;
+  cursor:pointer;
+
+}
+.avatar:hover {
+  transform: scale(1);
+  box-shadow: 0 37.125px 70px -12.125px rgba(0,0,0,0.2);
+}
+.profilePic {
+	text-align: center;
+}
+.isOnline {
+  text-align:center;
+  color:#ace;
+  font-size: 10px;
+}
+.profileInfo {
+  margin-top:1em;
+  font-weight:330;
+  font-size:12px;
+  font-family: 'sans-serif';
+  color: #ace;
+  text-align:center;
+}
+h4 {
+color: #ace;
+}
+</style>
+<div class="container container-body">
+  <div class="profile">
+    <div class="card-header profileName">
+      Mas Domath
+      <span class="isVerified">
+      <svg  width="17" height="14" viewbox="0 0 24 24">
+     <path d="M23,12L20.56,9.22L20.9,5.54L17.29,4.72L15.4,1.54L12,3L8.6,1.54L6.71,4.72L3.1,5.53L3.44,9.21L1,12L3.44,14.78L3.1,18.47L6.71,19.29L8.6,22.47L12,21L15.4,22.46L17.29,19.28L20.9,18.46L20.56,14.78L23,12M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9L10,17Z"></path>
+    </svg>
+        </span>
+    </div>
+        <div class="isOnline">
+       <b>Sedang Aktif</b>&nbsp;<font color='lime'>•</font>
+      </div>
+    <div class="card-body profileBody">
+      <div class="profilePic">
+        <img class="avatar" style="background: #ace;" src="images/profilku.jpg" alt="Mas Domath"/>
+      </div>
+      <div class="profileInfo">
+        <p><font style='color:#eee;'>Role: Fullstack Wibuloper</font></p>
+      </div>
+    </div>
+    <center>
+      <div class='social-domath'>
+  <h4>Follow Us</h4>
+<ul class='home-social'>
+  <li><a class='fcb' href='https://web.facebook.com/adminsontol.id' rel='nofollow' title='Follow FB Mas Domath'>
+<svg viewBox='0 0 24 24'>
+    <path d='M17,2V2H17V6H15C14.31,6 14,6.81 14,7.5V10H14L17,10V14H14V22H10V14H7V10H10V6A4,4 0 0,1 14,2H17Z'/>
+</svg>
+</a>
+  </li>  
+  <li><a class='igicon' href='#' rel='nofollow' title='Follow IG xxx'>
+<svg viewBox='0 0 24 24'>
+    <path d='M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z'/>
+</svg>
+</a>
+  </li>
+  <li><a class='twt' href='#' title='Follow Blog MASDOMATH'>
+<svg viewBox='0 0 24 24'>
+    <path d='M13,13C11,13 7,14 7,16V18H19V16C19,14 15,13 13,13M19.62,13.16C20.45,13.88 21,14.82 21,16V18H24V16C24,14.46 21.63,13.5 19.62,13.16M13,11A3,3 0 0,0 16,8A3,3 0 0,0 13,5A3,3 0 0,0 10,8A3,3 0 0,0 13,11M18,11A3,3 0 0,0 21,8A3,3 0 0,0 18,5C17.68,5 17.37,5.05 17.08,5.14C17.65,5.95 18,6.94 18,8C18,9.06 17.65,10.04 17.08,10.85C17.37,10.95 17.68,11 18,11M8,10H5V7H3V10H0V12H3V15H5V12H8V10Z'/>
+</svg>
+</a> 
+  </li>
+  <li><a class='ytb' href='#' rel='nofollow'>
+<svg viewBox='0 0 24 24'>
+    <path d='M10,15L15.19,12L10,9V15M21.56,7.17C21.69,7.64 21.78,8.27 21.84,9.07C21.91,9.87 21.94,10.56 21.94,11.16L22,12C22,14.19 21.84,15.8 21.56,16.83C21.31,17.73 20.73,18.31 19.83,18.56C19.36,18.69 18.5,18.78 17.18,18.84C15.88,18.91 14.69,18.94 13.59,18.94L12,19C7.81,19 5.2,18.84 4.17,18.56C3.27,18.31 2.69,17.73 2.44,16.83C2.31,16.36 2.22,15.73 2.16,14.93C2.09,14.13 2.06,13.44 2.06,12.84L2,12C2,9.81 2.16,8.2 2.44,7.17C2.69,6.27 3.27,5.69 4.17,5.44C4.64,5.31 5.5,5.22 6.82,5.16C8.12,5.09 9.31,5.06 10.41,5.06L12,5C16.19,5 18.8,5.16 19.83,5.44C20.73,5.69 21.31,6.27 21.56,7.17Z'/>
+</svg>
+</a> 
+  </li>
+  <li class='protect img'>
+<!-- dmca disini -->
+  </li>
+</ul>
+  </div>
+  </div>
+  </div>
+  </div>
+  </body>
+  </html>
